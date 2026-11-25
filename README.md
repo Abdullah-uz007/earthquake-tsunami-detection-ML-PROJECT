@@ -4,7 +4,7 @@
 ![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)
 
-## 🌍 Project Overview
+## 🎯 Project Overview
 This project focuses on detecting and classifying **earthquake and tsunami events** using **machine learning and deep learning techniques** on tabular geophysical data.  
 It demonstrates an end-to-end ML workflow from data preprocessing, exploratory analysis, and model training, to evaluation and visualization.
 
@@ -12,24 +12,23 @@ The goal is to extract meaningful patterns from seismic data and provide insight
 
 ---
 
-## 🎯 Objectives
+## 📝 Objectives
 - Apply ML/DL models to classify earthquake and tsunami events.  
 - Perform data preprocessing and exploratory data analysis (EDA).  
 - Train, evaluate, and optimize models for accurate prediction.  
 - Visualize patterns and correlations in seismic and tsunami data.  
-- Provide a clean, reproducible project structure for future improvements.
+- Provide a clean, reproducible project structure for future improvement.
 
 ---
 
-## 📂 Folder Structure
+## 🗂️ Folder Structure
 
 ml-learning-earthquake-tsunami-detection/
-│
 ├── data/ # Raw and processed datasets
 ├── notebooks/ # Jupyter notebooks for EDA, visualization, experimentation
 ├── code/ # Python scripts for preprocessing, training, evaluation
-├── Visuals
-└── README.md # Project documentation
+├── visuals
+├── README.md # Project documentation
 
 
 ---
@@ -42,7 +41,7 @@ ml-learning-earthquake-tsunami-detection/
 - joblib  
 
 
-📈 Model & Results
+## 🤖 Model & Results
 
 Model Used: Simple Feedforward Neural Network
 
@@ -53,11 +52,12 @@ Output: Sigmoid for binary classification
 Confusion Matrix:
 
 Predicted
-         0     1
-Actual 0  120   10
+        0       1
+Actual 0   120   10
        1   8   105
 
-⚠️ Limitations & Failures
+
+## ⚠️ Limitations & Failures
 
 The dataset is limited in size; results may vary on real-world larger datasets.
 
@@ -69,7 +69,7 @@ Model currently works on offline data; real-time prediction is not implemented.
 
 Only binary classification is implemented; multi-class detection of seismic events is future work.
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Implement real-time earthquake/tsunami detection using streaming data.
 
@@ -79,6 +79,6 @@ Build interactive dashboards for visualization and monitoring.
 
 Extend to multi-class classification for different types of natural events.
 
-✍️ Author
+## ✍️ Author
 
 ABDULLAH
